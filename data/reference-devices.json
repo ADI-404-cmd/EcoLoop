@@ -1,0 +1,198 @@
+{
+  "categories": [
+    {
+      "id": "cat-laptop",
+      "name": "Laptops & Notebooks",
+      "cpcbCode": "ITEW3",
+      "defaultWeightKg": 2.10,
+      "referenceSourceId": "ref-gem-2024",
+      "compositionId": "comp-laptop",
+      "description": "Portable battery-powered computers with integrated displays, keyboards, and lithium-ion cells.",
+      "lifespanYears": {
+        "typical": 5,
+        "reuseThreshold": 3,
+        "refurbishThreshold": 6
+      }
+    },
+    {
+      "id": "cat-smartphone",
+      "name": "Smartphones & Mobile Devices",
+      "cpcbCode": "ITEW15",
+      "defaultWeightKg": 0.18,
+      "referenceSourceId": "ref-chancerel-2015",
+      "compositionId": "comp-smartphone",
+      "description": "High-density mobile handsets containing precious metal circuit boards, lithium polymer batteries, and OLED/LCD screens.",
+      "lifespanYears": {
+        "typical": 3,
+        "reuseThreshold": 2,
+        "refurbishThreshold": 4
+      }
+    },
+    {
+      "id": "cat-desktop",
+      "name": "Desktop Computers (Tower PC)",
+      "cpcbCode": "ITEW1",
+      "defaultWeightKg": 9.50,
+      "referenceSourceId": "ref-jrc-prosum-2018",
+      "compositionId": "comp-desktop",
+      "description": "Central processing units and desktop chassis with high ferrous/steel casings, power supplies, motherboards, and copper cabling.",
+      "lifespanYears": {
+        "typical": 7,
+        "reuseThreshold": 4,
+        "refurbishThreshold": 8
+      }
+    },
+    {
+      "id": "cat-monitor",
+      "name": "Monitors & Flat Panel Displays",
+      "cpcbCode": "ITEW2",
+      "defaultWeightKg": 4.80,
+      "referenceSourceId": "ref-jrc-prosum-2018",
+      "compositionId": "comp-monitor",
+      "description": "Standalone LCD/LED monitors containing polarizers, circuit boards, aluminum backplates, and ABS plastic housings.",
+      "lifespanYears": {
+        "typical": 7,
+        "reuseThreshold": 4,
+        "refurbishThreshold": 7
+      }
+    },
+    {
+      "id": "cat-tablet",
+      "name": "Tablets & E-Readers",
+      "cpcbCode": "ITEW16",
+      "defaultWeightKg": 0.49,
+      "referenceSourceId": "ref-apple-env-2023",
+      "compositionId": "comp-tablet",
+      "description": "Touchscreen portable slate computers with aluminum unibodies, glued battery packs, and dense logic boards.",
+      "lifespanYears": {
+        "typical": 4,
+        "reuseThreshold": 3,
+        "refurbishThreshold": 5
+      }
+    },
+    {
+      "id": "cat-printer",
+      "name": "Printers & Multi-Function Devices",
+      "cpcbCode": "ITEW6",
+      "defaultWeightKg": 6.50,
+      "referenceSourceId": "ref-cpcb-rules-2022",
+      "compositionId": "comp-printer",
+      "description": "Inkjet/laser printers containing heavy mechanical gears, carriage motors, transformers, and polycarbonate housings.",
+      "lifespanYears": {
+        "typical": 6,
+        "reuseThreshold": 3,
+        "refurbishThreshold": 6
+      }
+    },
+    {
+      "id": "cat-refrigerator",
+      "name": "Refrigerators & Cooling Appliances",
+      "cpcbCode": "CEEW1",
+      "defaultWeightKg": 45.00,
+      "referenceSourceId": "ref-gem-2024",
+      "compositionId": "comp-refrigerator",
+      "description": "Compressor-driven cooling units with high steel content, polyurethane insulation, copper tubing, and sealed refrigerants.",
+      "lifespanYears": {
+        "typical": 10,
+        "reuseThreshold": 6,
+        "refurbishThreshold": 11
+      }
+    },
+    {
+      "id": "cat-small-it",
+      "name": "Small IT Peripherals & Networking",
+      "cpcbCode": "ITEW17",
+      "defaultWeightKg": 0.45,
+      "referenceSourceId": "ref-gem-2024",
+      "compositionId": "comp-small-it",
+      "description": "Wi-Fi routers, power adapters, external drives, keyboards, and mice.",
+      "lifespanYears": {
+        "typical": 4,
+        "reuseThreshold": 2,
+        "refurbishThreshold": 5
+      }
+    }
+  ],
+  "exactModels": [
+    {
+      "id": "model-dell-lat-5420",
+      "categoryId": "cat-laptop",
+      "brand": "Dell",
+      "model": "Latitude 5420 / 5430",
+      "weightKg": 1.40,
+      "sourceId": "ref-dell-pcf-2022",
+      "confidenceTier": "High",
+      "sourceDetail": "Dell Product Carbon Footprint Report, Latitude 5420 (Page 2, System Weight 1.40 kg)"
+    },
+    {
+      "id": "model-macbook-pro-14",
+      "categoryId": "cat-laptop",
+      "brand": "Apple",
+      "model": "MacBook Pro 14 (M1/M2/M3)",
+      "weightKg": 1.60,
+      "sourceId": "ref-apple-env-2023",
+      "confidenceTier": "High",
+      "sourceDetail": "Apple Product Environmental Report - 14-inch MacBook Pro (2023, System Weight 1.60 kg)"
+    },
+    {
+      "id": "model-thinkpad-t14",
+      "categoryId": "cat-laptop",
+      "brand": "Lenovo",
+      "model": "ThinkPad T14 Gen 2/3",
+      "weightKg": 1.48,
+      "sourceId": "ref-jrc-prosum-2018",
+      "confidenceTier": "High",
+      "sourceDetail": "Lenovo Eco-Declaration Sheet ThinkPad T14 (1.48 kg base enclosure)"
+    },
+    {
+      "id": "model-iphone-14",
+      "categoryId": "cat-smartphone",
+      "brand": "Apple",
+      "model": "iPhone 14 / 13",
+      "weightKg": 0.174,
+      "sourceId": "ref-apple-env-2023",
+      "confidenceTier": "High",
+      "sourceDetail": "Apple Product Environmental Report iPhone 14 (174 grams total device weight)"
+    },
+    {
+      "id": "model-galaxy-s23",
+      "categoryId": "cat-smartphone",
+      "brand": "Samsung",
+      "model": "Galaxy S23 / S22",
+      "weightKg": 0.168,
+      "sourceId": "ref-chancerel-2015",
+      "confidenceTier": "High",
+      "sourceDetail": "Samsung Electronics Product Environmental Report Galaxy S23 (168 grams)"
+    },
+    {
+      "id": "model-hp-pavilion-tp01",
+      "categoryId": "cat-desktop",
+      "brand": "HP",
+      "model": "Pavilion Desktop TP01",
+      "weightKg": 5.96,
+      "sourceId": "ref-dell-pcf-2022",
+      "confidenceTier": "High",
+      "sourceDetail": "HP Eco Solutions Declaration TP01 Series (5.96 kg net system weight)"
+    },
+    {
+      "id": "model-dell-u2722d",
+      "categoryId": "cat-monitor",
+      "brand": "Dell",
+      "model": "UltraSharp 27 U2722D",
+      "weightKg": 4.38,
+      "sourceId": "ref-dell-pcf-2022",
+      "confidenceTier": "High",
+      "sourceDetail": "Dell Product Carbon Footprint U2722D (4.38 kg panel weight without stand)"
+    },
+    {
+      "id": "model-ipad-10th",
+      "categoryId": "cat-tablet",
+      "brand": "Apple",
+      "model": "iPad (10th Generation)",
+      "weightKg": 0.477,
+      "sourceId": "ref-apple-env-2023",
+      "confidenceTier": "High",
+      "sourceDetail": "Apple iPad Environmental Report 2022 (477 grams Wi-Fi model)"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "compositions": {
+    "comp-laptop": {
+      "name": "Laptops & Notebooks Composition Profile",
+      "sourceId": "ref-jrc-prosum-2018",
+      "materials": [
+        { "materialId": "mat-steel", "fraction": 0.235, "label": "Ferrous Metals (Chassis / Hinges / Screws)" },
+        { "materialId": "mat-aluminum", "fraction": 0.182, "label": "Aluminum (Casing / Heat Sinks)" },
+        { "materialId": "mat-copper", "fraction": 0.124, "label": "Copper & Brass (Heat pipes, Wiring, PCB traces)" },
+        { "materialId": "mat-plastics", "fraction": 0.220, "label": "Engineering Plastics (ABS, PC, HIPS)" },
+        { "materialId": "mat-battery", "fraction": 0.098, "label": "Lithium-ion Battery Pack (Co, Li, Ni)" },
+        { "materialId": "mat-glass", "fraction": 0.026, "label": "Display Glass & Optical Filters" },
+        { "materialId": "mat-gold", "fraction": 0.00021, "label": "Gold (Au - Connector pins & PCB bonding)" },
+        { "materialId": "mat-silver", "fraction": 0.00055, "label": "Silver (Ag - Solder & Conductive paste)" },
+        { "materialId": "mat-palladium", "fraction": 0.00007, "label": "Palladium (Pd - Multi-layer ceramic capacitors)" },
+        { "materialId": "mat-other", "fraction": 0.11317, "label": "Resins, Fiberglass & Inactive fractions" }
+      ]
+    },
+    "comp-smartphone": {
+      "name": "Smartphone & Mobile Device Composition Profile",
+      "sourceId": "ref-chancerel-2015",
+      "materials": [
+        { "materialId": "mat-steel", "fraction": 0.080, "label": "Ferrous Metals (Shielding & Screws)" },
+        { "materialId": "mat-aluminum", "fraction": 0.145, "label": "Aluminum (Midframe & Shell)" },
+        { "materialId": "mat-copper", "fraction": 0.150, "label": "Copper (Coils, Motherboard traces)" },
+        { "materialId": "mat-plastics", "fraction": 0.285, "label": "High-Grade Plastics & Enclosures" },
+        { "materialId": "mat-battery", "fraction": 0.155, "label": "Lithium-Cobalt Battery Cell" },
+        { "materialId": "mat-glass", "fraction": 0.160, "label": "Aluminosilicate Cover Glass" },
+        { "materialId": "mat-gold", "fraction": 0.00035, "label": "Gold (Au - 350 ppm micro-wires)" },
+        { "materialId": "mat-silver", "fraction": 0.00120, "label": "Silver (Ag - 1200 ppm Solder joints)" },
+        { "materialId": "mat-palladium", "fraction": 0.00012, "label": "Palladium (Pd - 120 ppm MLCCs)" },
+        { "materialId": "mat-other", "fraction": 0.02333, "label": "Epoxy, adhesives & trace ceramics" }
+      ]
+    },
+    "comp-desktop": {
+      "name": "Desktop Computer (Tower PC) Composition Profile",
+      "sourceId": "ref-jrc-prosum-2018",
+      "materials": [
+        { "materialId": "mat-steel", "fraction": 0.480, "label": "Ferrous Metals (Galvanized Steel Case)" },
+        { "materialId": "mat-aluminum", "fraction": 0.075, "label": "Aluminum (CPU Cooler & Radiator)" },
+        { "materialId": "mat-copper", "fraction": 0.065, "label": "Copper (Power Transformer, Wiring Harness)" },
+        { "materialId": "mat-plastics", "fraction": 0.140, "label": "Engineering Plastics (Bezel, Fans)" },
+        { "materialId": "mat-gold", "fraction": 0.00015, "label": "Gold (Au - 150 ppm CPU pins & PCIe slots)" },
+        { "materialId": "mat-silver", "fraction": 0.00040, "label": "Silver (Ag - 400 ppm Circuit solder)" },
+        { "materialId": "mat-palladium", "fraction": 0.00005, "label": "Palladium (Pd - 50 ppm Surface mount devices)" },
+        { "materialId": "mat-other", "fraction": 0.23940, "label": "FR-4 Fiberglass, Silicon, Capacitors & Transformers" }
+      ]
+    },
+    "comp-monitor": {
+      "name": "Monitors & Flat Panel Displays Composition Profile",
+      "sourceId": "ref-jrc-prosum-2018",
+      "materials": [
+        { "materialId": "mat-steel", "fraction": 0.320, "label": "Ferrous Metals (Base & Internal Shields)" },
+        { "materialId": "mat-aluminum", "fraction": 0.085, "label": "Aluminum (Backlight Chassis)" },
+        { "materialId": "mat-copper", "fraction": 0.020, "label": "Copper (Deflection yoke & cables)" },
+        { "materialId": "mat-plastics", "fraction": 0.280, "label": "Engineering Plastics (Housing & Diffusers)" },
+        { "materialId": "mat-glass", "fraction": 0.220, "label": "TFT Display Glass Panel" },
+        { "materialId": "mat-gold", "fraction": 0.00003, "label": "Gold (Au - Microcontroller wire bonds)" },
+        { "materialId": "mat-other", "fraction": 0.07497, "label": "Indium-Tin-Oxide (ITO), LCD crystals, driver ICs" }
+      ]
+    },
+    "comp-tablet": {
+      "name": "Tablets & E-Readers Composition Profile",
+      "sourceId": "ref-apple-env-2023",
+      "materials": [
+        { "materialId": "mat-steel", "fraction": 0.050, "label": "Ferrous Metals (Brackets, Magnets)" },
+        { "materialId": "mat-aluminum", "fraction": 0.320, "label": "Anodized Aluminum Unibody" },
+        { "materialId": "mat-copper", "fraction": 0.080, "label": "Copper (Shields & Logic board)" },
+        { "materialId": "mat-plastics", "fraction": 0.120, "label": "Engineering Plastics (Connectors & Antennas)" },
+        { "materialId": "mat-battery", "fraction": 0.230, "label": "Lithium-Polymer Battery Pack" },
+        { "materialId": "mat-glass", "fraction": 0.180, "label": "Touch Panel Glass Substrate" },
+        { "materialId": "mat-gold", "fraction": 0.00025, "label": "Gold (Au - 250 ppm)" },
+        { "materialId": "mat-silver", "fraction": 0.00060, "label": "Silver (Ag - 600 ppm)" },
+        { "materialId": "mat-palladium", "fraction": 0.00008, "label": "Palladium (Pd - 80 ppm)" },
+        { "materialId": "mat-other", "fraction": 0.01907, "label": "Rare Earth magnets (NdFeB) & adhesives" }
+      ]
+    },
+    "comp-printer": {
+      "name": "Printers & Multi-Function Devices Composition Profile",
+      "sourceId": "ref-cpcb-rules-2022",
+      "materials": [
+        { "materialId": "mat-steel", "fraction": 0.380, "label": "Ferrous Metals (Frame, shafts, motor plates)" },
+        { "materialId": "mat-aluminum", "fraction": 0.040, "label": "Aluminum (Rollers & Heat exchangers)" },
+        { "materialId": "mat-copper", "fraction": 0.050, "label": "Copper (Stepper motor windings, wiring)" },
+        { "materialId": "mat-plastics", "fraction": 0.420, "label": "Engineering Plastics (Polystyrene, ABS gears/body)" },
+        { "materialId": "mat-other", "fraction": 0.110, "label": "Rubber rollers, toner cartridges, optical glass" }
+      ]
+    },
+    "comp-refrigerator": {
+      "name": "Refrigerators & Cooling Appliances Composition Profile",
+      "sourceId": "ref-gem-2024",
+      "materials": [
+        { "materialId": "mat-steel", "fraction": 0.460, "label": "Ferrous Metals (Sheet metal cabinet, compressor shell)" },
+        { "materialId": "mat-plastics", "fraction": 0.240, "label": "Engineering Plastics (Liners, drawers, trim)" },
+        { "materialId": "mat-copper", "fraction": 0.055, "label": "Copper (Compressor motor, capillary tubing)" },
+        { "materialId": "mat-aluminum", "fraction": 0.035, "label": "Aluminum (Evaporator coils, heat plates)" },
+        { "materialId": "mat-other", "fraction": 0.210, "label": "Cyclopentane foam, tempered glass shelves, gaskets" }
+      ]
+    },
+    "comp-small-it": {
+      "name": "Small IT Peripherals & Networking Composition Profile",
+      "sourceId": "ref-gem-2024",
+      "materials": [
+        { "materialId": "mat-plastics", "fraction": 0.520, "label": "Engineering Plastics (Molded casing, keycaps)" },
+        { "materialId": "mat-steel", "fraction": 0.220, "label": "Ferrous Metals (Base plates, fasteners)" },
+        { "materialId": "mat-copper", "fraction": 0.160, "label": "Copper (Power cords, transformer wires)" },
+        { "materialId": "mat-other", "fraction": 0.100, "label": "Small PCB, solder, silicon chips" }
+      ]
+    }
+  },
+  "materials": {
+    "mat-steel": {
+      "id": "mat-steel",
+      "name": "Ferrous Metals (Steel / Iron)",
+      "category": "Base Metals",
+      "recoveryEfficiency": 0.94,
+      "recoveryMethod": "Magnetic separation, mechanical shredding & electric arc furnace (EAF) smelting",
+      "avoidedCo2eFactorKgPerKg": 1.45,
+      "primaryEmissionFactorKgPerKg": 1.85,
+      "secondaryEmissionFactorKgPerKg": 0.40,
+      "isCriticalRawMaterial": false,
+      "hazardLevel": "Low",
+      "sourceId": "ref-epa-warm-v15",
+      "citationNotes": "World Steel Association / US EPA WARM v15 (Primary Basic Oxygen Furnace: 1.85 kg CO2e/kg vs Recycled Electric Arc: 0.40 kg CO2e/kg, net avoided 1.45 kg CO2e/kg)."
+    },
+    "mat-aluminum": {
+      "id": "mat-aluminum",
+      "name": "Aluminum & Alloys",
+      "category": "Light Metals",
+      "recoveryEfficiency": 0.88,
+      "recoveryMethod": "Eddy-current separation, density floatation & secondary remelting",
+      "avoidedCo2eFactorKgPerKg": 11.20,
+      "primaryEmissionFactorKgPerKg": 12.10,
+      "secondaryEmissionFactorKgPerKg": 0.90,
+      "isCriticalRawMaterial": false,
+      "hazardLevel": "Low",
+      "sourceId": "ref-epa-warm-v15",
+      "citationNotes": "International Aluminium Institute (IAI 2021) / US EPA WARM v15 (Bauxite Bayer-Hall-Héroult smelting: 12.10 kg CO2e/kg vs secondary remelting: 0.90 kg CO2e/kg, net avoided 11.20 kg CO2e/kg)."
+    },
+    "mat-copper": {
+      "id": "mat-copper",
+      "name": "Copper & Brass Alloys",
+      "category": "Non-Ferrous Metals",
+      "recoveryEfficiency": 0.85,
+      "recoveryMethod": "Granulation, electrostatic separation, secondary copper converter & electro-refining",
+      "avoidedCo2eFactorKgPerKg": 3.40,
+      "primaryEmissionFactorKgPerKg": 4.30,
+      "secondaryEmissionFactorKgPerKg": 0.90,
+      "isCriticalRawMaterial": true,
+      "hazardLevel": "Low",
+      "sourceId": "ref-jrc-prosum-2018",
+      "citationNotes": "International Copper Study Group (ICSG) / Ecoinvent 3.8 (Primary open-pit chalcopyrite mining: 4.30 kg CO2e/kg vs secondary electro-refining: 0.90 kg CO2e/kg, net avoided 3.40 kg CO2e/kg)."
+    },
+    "mat-plastics": {
+      "id": "mat-plastics",
+      "name": "Engineering Plastics (ABS, PC, HIPS)",
+      "category": "Polymers",
+      "recoveryEfficiency": 0.68,
+      "recoveryMethod": "Sink-float density classification, optical near-infrared (NIR) sorting & mechanical extrusion regranulation",
+      "avoidedCo2eFactorKgPerKg": 1.65,
+      "primaryEmissionFactorKgPerKg": 2.60,
+      "secondaryEmissionFactorKgPerKg": 0.95,
+      "isCriticalRawMaterial": false,
+      "hazardLevel": "Moderate (when brominated flame retardants present)",
+      "sourceId": "ref-epa-warm-v15",
+      "citationNotes": "PlasticsEurope Eco-profiles / US EPA WARM (Virgin fossil polymer production: 2.60 kg CO2e/kg vs Mechanical regranulation: 0.95 kg CO2e/kg, net avoided 1.65 kg CO2e/kg)."
+    },
+    "mat-gold": {
+      "id": "mat-gold",
+      "name": "Gold (Au)",
+      "category": "Precious Metals",
+      "recoveryEfficiency": 0.78,
+      "recoveryMethod": "Hydrometallurgical chemical leaching or integrated Umicore-style pyrometallurgical copper-lead-nickel smelting",
+      "avoidedCo2eFactorKgPerKg": 14800.0,
+      "primaryEmissionFactorKgPerKg": 16200.0,
+      "secondaryEmissionFactorKgPerKg": 1400.0,
+      "isCriticalRawMaterial": true,
+      "hazardLevel": "Low (non-toxic metal, hazardous reagents required if informal)",
+      "sourceId": "ref-umicore-2019",
+      "citationNotes": "Hagelüken (2014) & UNEP International Resource Panel (Hard-rock mining average ore grade 2-5 g/t: ~16,200 kg CO2e/kg Au vs E-waste high-grade smelting: ~1,400 kg CO2e/kg Au, net avoided 14,800 kg CO2e/kg)."
+    },
+    "mat-silver": {
+      "id": "mat-silver",
+      "name": "Silver (Ag)",
+      "category": "Precious Metals",
+      "recoveryEfficiency": 0.82,
+      "recoveryMethod": "Electrolytic refining from anode slime",
+      "avoidedCo2eFactorKgPerKg": 185.0,
+      "primaryEmissionFactorKgPerKg": 210.0,
+      "secondaryEmissionFactorKgPerKg": 25.0,
+      "isCriticalRawMaterial": false,
+      "hazardLevel": "Low",
+      "sourceId": "ref-umicore-2019",
+      "citationNotes": "Ecoinvent 3.8 / Silver Institute LCA (Primary silver extraction: 210 kg CO2e/kg vs secondary refining: 25 kg CO2e/kg, net avoided 185 kg CO2e/kg)."
+    },
+    "mat-palladium": {
+      "id": "mat-palladium",
+      "name": "Palladium (Pd)",
+      "category": "Precious & Platinum Group Metals",
+      "recoveryEfficiency": 0.75,
+      "recoveryMethod": "Hydrometallurgical solvent extraction & selective precipitation",
+      "avoidedCo2eFactorKgPerKg": 7200.0,
+      "primaryEmissionFactorKgPerKg": 8100.0,
+      "secondaryEmissionFactorKgPerKg": 900.0,
+      "isCriticalRawMaterial": true,
+      "hazardLevel": "Low",
+      "sourceId": "ref-umicore-2019",
+      "citationNotes": "Johnson Matthey Sustainability & Ecoinvent 3.8 (Primary PGM underground mining in South Africa: 8,100 kg CO2e/kg vs secondary recycling: 900 kg CO2e/kg, net avoided 7,200 kg CO2e/kg)."
+    },
+    "mat-battery": {
+      "id": "mat-battery",
+      "name": "Lithium-ion Battery Active Mass (Li, Co, Ni)",
+      "category": "Battery Chemistry",
+      "recoveryEfficiency": 0.70,
+      "recoveryMethod": "Inert gas shredding, black mass separation & acid hydrometallurgical extraction",
+      "avoidedCo2eFactorKgPerKg": 4.80,
+      "primaryEmissionFactorKgPerKg": 7.30,
+      "secondaryEmissionFactorKgPerKg": 2.50,
+      "isCriticalRawMaterial": true,
+      "hazardLevel": "High (thermal runaway hazard, heavy metals, electrolyte toxicity)",
+      "sourceId": "ref-cpcb-rules-2022",
+      "citationNotes": "MoEF&CC Battery Waste Management Rules 2022 & Argonne National Lab GREET model for NMC/LCO secondary recovery."
+    },
+    "mat-glass": {
+      "id": "mat-glass",
+      "name": "Display Glass & Optical Ceramics",
+      "category": "Glass & Ceramics",
+      "recoveryEfficiency": 0.60,
+      "recoveryMethod": "Manual thermal separation, crushing & fluxing agent in construction or ceramic tiles",
+      "avoidedCo2eFactorKgPerKg": 0.35,
+      "primaryEmissionFactorKgPerKg": 0.85,
+      "secondaryEmissionFactorKgPerKg": 0.50,
+      "isCriticalRawMaterial": false,
+      "hazardLevel": "Low (unless CRT leaded glass)",
+      "sourceId": "ref-jrc-prosum-2018",
+      "citationNotes": "EU JRC ProSUM / Glass for Europe LCA (Primary float glass: 0.85 kg CO2e/kg vs cullet substitution: 0.50 kg CO2e/kg, net avoided 0.35 kg CO2e/kg)."
+    },
+    "mat-other": {
+      "id": "mat-other",
+      "name": "Resins, Fiberglass & Non-Recoverable Residue",
+      "category": "Residual",
+      "recoveryEfficiency": 0.0,
+      "recoveryMethod": "Engineered hazardous waste landfill or authorized co-processing in cement kilns (energy recovery)",
+      "avoidedCo2eFactorKgPerKg": 0.0,
+      "primaryEmissionFactorKgPerKg": 0.0,
+      "secondaryEmissionFactorKgPerKg": 0.0,
+      "isCriticalRawMaterial": false,
+      "hazardLevel": "Moderate",
+      "sourceId": "ref-gem-2024",
+      "citationNotes": "No virgin material substitution benefit assigned. Inactive fraction properly tracked."
+    }
+  }
+}

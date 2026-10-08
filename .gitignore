@@ -1,0 +1,79 @@
+# ========================================================
+# EcoLoop — Git Ignore Configuration
+# ========================================================
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production / Distribution Builds
+dist/
+dist-ssr/
+build/
+*.local
+
+# SQLite Database & Storage Files
+# (Local databases are recreated via migrations and seed scripts)
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.sqlite*
+
+# Explicitly ensure scientific reference datasets and seed JSON files remain tracked
+!data/*.json
+
+# Environment Variables & Secrets
+.env
+.env.development
+.env.test
+.env.production
+.env.local
+.env.*.local
+*.env
+
+# Runtime & Package Manager Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & IDE Configurations
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Testing & Coverage Outputs
+coverage/
+.nyc_output/
+
+# Temporary & Cache Directories
+.temp/
+tmp/
+*.tmp
+.eslintcache

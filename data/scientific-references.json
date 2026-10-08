@@ -1,0 +1,84 @@
+{
+  "references": [
+    {
+      "id": "ref-gem-2024",
+      "shortCode": "GEM 2024",
+      "title": "The Global E-waste Monitor 2024: Electronic Waste Rising, but Recycling Falling Behind",
+      "authors": "Baldé, C. P., Forti, V., Gray, V., Kuehr, R., & Stegmann, P.",
+      "organization": "UNITAR / ITU / UNEP",
+      "year": 2024,
+      "url": "https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+      "notes": "Primary reference for global e-waste generation statistics (62 Mt in 2022), collection rates (22.3%), category classifications, and critical raw material stocks in urban mining."
+    },
+    {
+      "id": "ref-jrc-prosum-2018",
+      "shortCode": "EU JRC ProSUM",
+      "title": "Prospecting Secondary Raw Materials in the Urban Mine and Mining Wastes (ProSUM)",
+      "authors": "European Commission Joint Research Centre (JRC) Consortium",
+      "organization": "European Commission Horizon 2020 / JRC",
+      "year": 2018,
+      "url": "https://prosumproject.eu/",
+      "notes": "Standardized characterization of material composition fractions (ferrous, non-ferrous, precious metals, plastics, battery chemistry) across WEEE categories."
+    },
+    {
+      "id": "ref-cpcb-rules-2022",
+      "shortCode": "CPCB E-Waste 2022",
+      "title": "E-Waste (Management) Rules, 2022 and Technical Guidelines for Recyclers",
+      "authors": "Ministry of Environment, Forest and Climate Change (MoEF&CC) / Central Pollution Control Board (CPCB)",
+      "organization": "Government of India",
+      "year": 2022,
+      "url": "https://cpcb.nic.in/e-waste/",
+      "notes": "Mandates classification codes (ITEW1-ITEW17, CEEW1-CEEW3), Extended Producer Responsibility (EPR) credit framework, authorized collection protocols, and formal recycling recovery quotas."
+    },
+    {
+      "id": "ref-epa-warm-v15",
+      "shortCode": "US EPA WARM v15",
+      "title": "Waste Reduction Model (WARM) - Electronics Chapters and Documentation",
+      "authors": "United States Environmental Protection Agency (US EPA)",
+      "organization": "US EPA Office of Resource Conservation and Recovery",
+      "year": 2021,
+      "url": "https://www.epa.gov/warm",
+      "notes": "Lifecycle inventory methodology for greenhouse gas emissions comparing virgin raw material smelting versus secondary dismantling and hydrometallurgical recycling."
+    },
+    {
+      "id": "ref-chancerel-2015",
+      "shortCode": "Chancerel et al. 2015",
+      "title": "Estimating the quantities of critical metals in electronic devices and assessing their recycling potential",
+      "authors": "Chancerel, P., Meskers, C. E. M., Haag, O., & Rotter, V. S.",
+      "organization": "Waste Management & Resources Journal",
+      "year": 2015,
+      "url": "https://doi.org/10.1016/j.wasman.2015.01.003",
+      "notes": "Empirical breakdown of printed circuit board (PCB) fractions, gold (Au), silver (Ag), palladium (Pd), and tantalum yields in laptops and smartphones."
+    },
+    {
+      "id": "ref-umicore-2019",
+      "shortCode": "Hagelüken / Umicore",
+      "title": "Recycling of Critical Metals from Waste Electrical and Electronic Equipment: State of the Art and Industrial Reality",
+      "authors": "Hagelüken, C.",
+      "organization": "Umicore Precious Metals Refining",
+      "year": 2014,
+      "url": "https://doi.org/10.1007/978-94-007-6784-3_11",
+      "notes": "Provides industrial metallurgical recovery efficiency factors (75%-85% for precious metals in high-grade smelters) and primary vs secondary carbon intensity."
+    },
+    {
+      "id": "ref-apple-env-2023",
+      "shortCode": "Apple Env. Report 2023",
+      "title": "Product Environmental Reports: MacBook Pro, iPhone 14/15, iPad 10th Gen",
+      "authors": "Apple Inc. Environmental Technologies",
+      "organization": "Apple Inc.",
+      "year": 2023,
+      "url": "https://www.apple.com/environment/",
+      "notes": "Empirical unit weights, recycled aluminum enclosure content, battery mass percentage, and LCA cradle-to-grave disclosures."
+    },
+    {
+      "id": "ref-dell-pcf-2022",
+      "shortCode": "Dell PCF 2022",
+      "title": "Product Carbon Footprint (PCF) Declarations: Latitude 5420, UltraSharp Monitors",
+      "authors": "Dell Technologies Global Environmental Affairs",
+      "organization": "Dell Technologies",
+      "year": 2022,
+      "url": "https://corporate.delltechnologies.com/",
+      "notes": "Manufacturer bill of materials, product shipping weights, and baseline carbon footprints for commercial notebooks and monitors."
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "submissions": [
+    {
+      "id": "SUB-2026-1001",
+      "trackingCode": "ECL-LTP-8491",
+      "registeredAt": "2026-10-01T10:15:00Z",
+      "userId": "usr-college-lab-01",
+      "userName": "Engineering Dept - Lab 3",
+      "userEmail": "cs.lab@university.edu",
+      "categoryId": "cat-laptop",
+      "categoryName": "Laptops & Notebooks",
+      "brand": "Dell",
+      "model": "Latitude 5420 / 5430",
+      "quantity": 12,
+      "purchaseYear": 2021,
+      "ageYears": 5,
+      "condition": "Working with issues",
+      "weightKgPerUnit": 1.40,
+      "weightSource": "exact_model",
+      "weightConfidence": "High",
+      "totalMassKg": 16.80,
+      "userIntendedPathway": "Repair/refurbish",
+      "recommendedPathway": "Repair / Refurbish",
+      "pathwayRationale": "5-year commercial notebooks with functional logic boards can be repaired via battery replacement and thermal repasting for secondary student use.",
+      "selectedCenterId": "cc-blr-01",
+      "collectionMethod": "Pickup Scheduled",
+      "status": "Recovered",
+      "statusHistory": [
+        { "status": "Registered", "timestamp": "2026-10-01T10:15:00Z", "note": "Registered by Lab Admin" },
+        { "status": "Collected", "timestamp": "2026-10-02T14:30:00Z", "note": "Picked up by EcoLoop Logistics van" },
+        { "status": "In Assessment", "timestamp": "2026-10-03T09:00:00Z", "note": "Battery health tested: 4 units refurbished, 8 units dismantled for parts" },
+        { "status": "Processing", "timestamp": "2026-10-04T11:00:00Z", "note": "Components harvested; non-repairable hulls routed to secondary smelter" },
+        { "status": "Recovered", "timestamp": "2026-10-05T16:45:00Z", "note": "Metals and plastics recovery batch confirmed" }
+      ],
+      "evaluation": {
+        "confidenceTier": "High",
+        "potentialMaterialsKg": {
+          "mat-steel": 3.948,
+          "mat-aluminum": 3.058,
+          "mat-copper": 2.083,
+          "mat-plastics": 3.696,
+          "mat-gold": 0.00353,
+          "mat-silver": 0.00924,
+          "mat-palladium": 0.00118,
+          "mat-battery": 1.646
+        },
+        "recoveredMaterialsKg": {
+          "mat-steel": 3.711,
+          "mat-aluminum": 2.691,
+          "mat-copper": 1.771,
+          "mat-plastics": 2.513,
+          "mat-gold": 0.00275,
+          "mat-silver": 0.00758,
+          "mat-palladium": 0.00089,
+          "mat-battery": 1.152
+        },
+        "avoidedCo2eKg": 82.75
+      }
+    },
+    {
+      "id": "SUB-2026-1002",
+      "trackingCode": "ECL-SMP-3304",
+      "registeredAt": "2026-10-03T11:20:00Z",
+      "userId": "usr-student-042",
+      "userName": "Priya Sharma",
+      "userEmail": "priya.s@student.edu",
+      "categoryId": "cat-smartphone",
+      "categoryName": "Smartphones & Mobile Devices",
+      "brand": "Apple",
+      "model": "iPhone 14 / 13",
+      "quantity": 2,
+      "purchaseYear": 2023,
+      "ageYears": 3,
+      "condition": "Fully working",
+      "weightKgPerUnit": 0.174,
+      "weightSource": "exact_model",
+      "weightConfidence": "High",
+      "totalMassKg": 0.348,
+      "userIntendedPathway": "Reuse/donate",
+      "recommendedPathway": "Continue Using / Direct Reuse",
+      "pathwayRationale": "3-year high-end device in fully operational state retains highest circular value through direct resale or device donation.",
+      "selectedCenterId": "cc-blr-02",
+      "collectionMethod": "Drop-off at Center",
+      "status": "In Assessment",
+      "statusHistory": [
+        { "status": "Registered", "timestamp": "2026-10-03T11:20:00Z", "note": "Drop-off booked by user" },
+        { "status": "Collected", "timestamp": "2026-10-04T16:10:00Z", "note": "Received at Koramangala Center drop box" },
+        { "status": "In Assessment", "timestamp": "2026-10-05T10:00:00Z", "note": "Screen diagnostic passed; factory data wipe in progress for peer donation" }
+      ],
+      "evaluation": {
+        "confidenceTier": "High",
+        "potentialMaterialsKg": {
+          "mat-steel": 0.0278,
+          "mat-aluminum": 0.0505,
+          "mat-copper": 0.0522,
+          "mat-plastics": 0.0992,
+          "mat-gold": 0.00012,
+          "mat-silver": 0.00042,
+          "mat-palladium": 0.00004,
+          "mat-battery": 0.0539
+        },
+        "recoveredMaterialsKg": {
+          "mat-steel": 0.0,
+          "mat-aluminum": 0.0,
+          "mat-copper": 0.0,
+          "mat-plastics": 0.0,
+          "mat-gold": 0.0,
+          "mat-silver": 0.0,
+          "mat-palladium": 0.0,
+          "mat-battery": 0.0
+        },
+        "avoidedCo2eKg": 0.0
+      }
+    },
+    {
+      "id": "SUB-2026-1003",
+      "trackingCode": "ECL-DSK-9912",
+      "registeredAt": "2026-10-04T09:40:00Z",
+      "userId": "usr-admin-dept",
+      "userName": "Campus Accounts Branch",
+      "userEmail": "accounts@university.edu",
+      "categoryId": "cat-desktop",
+      "categoryName": "Desktop Computers (Tower PC)",
+      "brand": "HP",
+      "model": "Pavilion Desktop TP01",
+      "quantity": 8,
+      "purchaseYear": 2017,
+      "ageYears": 9,
+      "condition": "Non-working",
+      "weightKgPerUnit": 5.96,
+      "weightSource": "exact_model",
+      "weightConfidence": "High",
+      "totalMassKg": 47.68,
+      "userIntendedPathway": "Formal recycling",
+      "recommendedPathway": "Component Harvesting + Formal Recycling",
+      "pathwayRationale": "Over 8 years old and non-functional motherboards; optimal circular treatment is salvage of heat sinks & power cords followed by formal depollution and metal smelting.",
+      "selectedCenterId": "cc-blr-01",
+      "collectionMethod": "Pickup Scheduled",
+      "status": "Processing",
+      "statusHistory": [
+        { "status": "Registered", "timestamp": "2026-10-04T09:40:00Z", "note": "Consolidated batch submission" },
+        { "status": "Collected", "timestamp": "2026-10-05T13:00:00Z", "note": "Intake dock barcode assigned" },
+        { "status": "In Assessment", "timestamp": "2026-10-06T09:30:00Z", "note": "Power supplies dismantled, RAM sticks isolated" },
+        { "status": "Processing", "timestamp": "2026-10-07T08:15:00Z", "note": "Mechanical shredding and magnetic ferrous extraction active" }
+      ],
+      "evaluation": {
+        "confidenceTier": "High",
+        "potentialMaterialsKg": {
+          "mat-steel": 22.886,
+          "mat-aluminum": 3.576,
+          "mat-copper": 3.099,
+          "mat-plastics": 6.675,
+          "mat-gold": 0.00715,
+          "mat-silver": 0.01907,
+          "mat-palladium": 0.00238
+        },
+        "recoveredMaterialsKg": {
+          "mat-steel": 21.513,
+          "mat-aluminum": 3.147,
+          "mat-copper": 2.634,
+          "mat-plastics": 4.539,
+          "mat-gold": 0.00558,
+          "mat-silver": 0.01564,
+          "mat-palladium": 0.00179
+        },
+        "avoidedCo2eKg": 206.42
+      }
+    },
+    {
+      "id": "SUB-2026-1004",
+      "trackingCode": "ECL-MON-1142",
+      "registeredAt": "2026-10-06T15:20:00Z",
+      "userId": "usr-faculty-11",
+      "userName": "Prof. R. Narayanan",
+      "userEmail": "r.narayanan@university.edu",
+      "categoryId": "cat-monitor",
+      "categoryName": "Monitors & Flat Panel Displays",
+      "brand": "Dell",
+      "model": "UltraSharp 27 U2722D",
+      "quantity": 3,
+      "purchaseYear": 2020,
+      "ageYears": 6,
+      "condition": "Physically damaged",
+      "weightKgPerUnit": 4.38,
+      "weightSource": "exact_model",
+      "weightConfidence": "High",
+      "totalMassKg": 13.14,
+      "userIntendedPathway": "Formal recycling",
+      "recommendedPathway": "Depollution & Material Recycling",
+      "pathwayRationale": "Cracked liquid crystal panels cannot be refurbished safely; requires hazardous fluorescent/backlight segregation and glass/steel recycling.",
+      "selectedCenterId": "cc-blr-01",
+      "collectionMethod": "Drop-off at Center",
+      "status": "Collected",
+      "statusHistory": [
+        { "status": "Registered", "timestamp": "2026-10-06T15:20:00Z", "note": "Registered by Faculty staff" },
+        { "status": "Collected", "timestamp": "2026-10-07T11:00:00Z", "note": "Delivered to Whitefield Hub e-waste bin" }
+      ],
+      "evaluation": {
+        "confidenceTier": "High",
+        "potentialMaterialsKg": {
+          "mat-steel": 4.205,
+          "mat-aluminum": 1.117,
+          "mat-copper": 0.263,
+          "mat-plastics": 3.679,
+          "mat-glass": 2.891
+        },
+        "recoveredMaterialsKg": {
+          "mat-steel": 0.0,
+          "mat-aluminum": 0.0,
+          "mat-copper": 0.0,
+          "mat-plastics": 0.0,
+          "mat-glass": 0.0
+        },
+        "avoidedCo2eKg": 0.0
+      }
+    },
+    {
+      "id": "SUB-2026-1005",
+      "trackingCode": "ECL-TAB-5509",
+      "registeredAt": "2026-10-07T14:10:00Z",
+      "userId": "usr-student-89",
+      "userName": "Aditya Verma",
+      "userEmail": "aditya.v@student.edu",
+      "categoryId": "cat-tablet",
+      "categoryName": "Tablets & E-Readers",
+      "brand": "Apple",
+      "model": "iPad (10th Generation)",
+      "quantity": 1,
+      "purchaseYear": 2022,
+      "ageYears": 4,
+      "condition": "Working with issues",
+      "weightKgPerUnit": 0.477,
+      "weightSource": "exact_model",
+      "weightConfidence": "High",
+      "totalMassKg": 0.477,
+      "userIntendedPathway": "Repair/refurbish",
+      "recommendedPathway": "Repair / Refurbish",
+      "pathwayRationale": "Faulty charging port on an otherwise high-spec iPad; port replacement returns device to 3+ years active study utility.",
+      "selectedCenterId": "cc-blr-02",
+      "collectionMethod": "Drop-off at Center",
+      "status": "Registered",
+      "statusHistory": [
+        { "status": "Registered", "timestamp": "2026-10-07T14:10:00Z", "note": "Registered online, awaiting drop-off" }
+      ],
+      "evaluation": {
+        "confidenceTier": "High",
+        "potentialMaterialsKg": {
+          "mat-aluminum": 0.153,
+          "mat-copper": 0.038,
+          "mat-battery": 0.110,
+          "mat-plastics": 0.057,
+          "mat-gold": 0.00012,
+          "mat-silver": 0.00029
+        },
+        "recoveredMaterialsKg": {
+          "mat-steel": 0.0,
+          "mat-aluminum": 0.0,
+          "mat-copper": 0.0,
+          "mat-plastics": 0.0
+        },
+        "avoidedCo2eKg": 0.0
+      }
+    }
+  ]
+}

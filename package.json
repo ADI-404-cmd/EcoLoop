@@ -1,0 +1,39 @@
+{
+  "name": "ecoloop",
+  "version": "1.0.0",
+  "description": "EcoLoop — E-Waste Circularity Management Platform",
+  "main": "server/server.js",
+  "scripts": {
+    "server": "node server/server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "concurrently \"npm run server\" \"npm run dev\"",
+    "db:init": "node server/db/init.js",
+    "db:init:demo": "node server/db/init.js --demo",
+    "test": "node --test server/tests/*.test.js"
+  },
+  "keywords": [
+    "e-waste",
+    "circular-economy",
+    "recycling",
+    "environmental"
+  ],
+  "author": "EcoLoop Team",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "lucide-react": "^1.52.0",
+    "motion": "^14.0.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "vite": "^8.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.5"
+  }
+}
